@@ -1,0 +1,10 @@
+INFO 253: Web Architecture
+HW #1: Browsers
+Date Assigned: August 28th, 2015
+Date Due: September 4th, 2015
+
+1) Use sublime text to create a file: [username].txt within the hw-1 folder
+
+2) Write two paragraphs:
+    - Your experience with web architecture. Have you written HTML before? Written Javascript? etc.
+    - What are your favorite features from at least 2 browsers?
