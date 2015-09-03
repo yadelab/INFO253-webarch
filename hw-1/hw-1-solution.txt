@@ -1,0 +1,14 @@
+Name: Ashwini Sriram
+
+Experience with Web Architecture: Even though I was a .NET developer for three years, I wrote very little front-end code. I am familiar but not proficient with Javascript as I usually use frameworks and libraries for front-end work. Similarly, I don't have much experience writing pure CSS but am comfortable with Bootstrap, MaterializeCSS etc. For I School projects, I have used d3.js, Highcharts and JQuery. 
+
+Favorite browser features: 
+
+Google Chrome: 
+
+a. I love that I can synchronize my bookmarks and other data across devices. I like the idea of "signing in" to a browser as it offers a high degree of personalization.
+
+b. Incognito Mode- As a developer, this has helped me overcome the issue of CSS caching several times. Often when I run my application, the browser caches CSS styles which messes with development as I don't really know if the new styles are being applied or not. The Incognito Mode instantly solves this problem, while also providing greater privacy.
+
+
+Firefox: I love that I can group my browser tabs on Firefox. Also, Firefox offers some of the swankiest add-ons like Firebug, which is one of my favorite tools for debugging.
