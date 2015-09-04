@@ -1,5 +1,5 @@
 from flask import Flask
-app = Flask(__name__)
+app = Flask(__name__, static_folder="public_html/static")
 
 @app.route('/')
 def load_root():
@@ -9,7 +9,8 @@ def load_root():
 
 @app.route('/<path:name>')
 def load_file(name=None):
-    f = open('public_html/' + name, 'r')
+    url = 'public_html/' + name
+    f = open(url, 'r')
     raw_data = f.read()
     return raw_data
 
