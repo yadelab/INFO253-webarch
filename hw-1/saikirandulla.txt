@@ -1,0 +1,18 @@
+
+HW #1: 
+My experience with web architecture. Have you written HTML before? Written Javascript? etc.
+    
+
+I have zero experience with web architecture. I learnt basic html a while ago before but never put it to any use. I have no experience writing Javascript. I hope
+the class gives me the knowledge and skills to understand basic web architecture and front end web development.
+
+
+What are your favorite features from at least 2 browsers?
+
+1. The search query autocomplete feature in Chrome and search without autocomplete in Firefox allows me to type my queries in the web address area after setting the default search
+   engine. This saves me the time to enter search engine website's URL and allowing for the page to load before I actually type in my query.
+
+2. I also like the Chrome feature of Search Google for on the right click after selecting a word/sentence on the webpage. This also saves time of 
+   copying and pasting the word for my search
+
+3. The extensions for Firefox and Chrome let you personalize your browsing habits by adding features such as adblock plus, Google docs etc.
