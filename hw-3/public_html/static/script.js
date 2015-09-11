@@ -28,7 +28,7 @@ $("#madlibForm").submit(function() {
         madlibStory = nameValue;
     }
 
-    /* ADD MORE VALIDATIONS HERE */
+    /* ADD MORE VALIDATIONS HERE AND ADD TO THE STORY */
 
 
 

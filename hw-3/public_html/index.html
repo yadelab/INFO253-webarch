@@ -2,32 +2,29 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="/static/style.css" />
-    
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-<form method="GET" action="http://www.google.com/search">
-  <input type="text" name="q" value="test">
-  <input type="submit" value="Google Search">
-</form>
+<div id="ajax-snippet"></div>
 
-<form>
+    <h1>Your Madlib Form!</h1>
 
-<input type="radio" name="mascot" value="bear" id="radio-bear"><label for="radio-bear">Bear </label>
-<input type="radio" name="mascot" value="cardinal" id="radio-cardinal" /><label for >Cardinal </label>
+    <!-- Mad lib form -->
+    <form id="madlibForm" method="POST">
+        <label for="name">Name: </label> 
+        <input type="text" id="name" name="name">
 
+        <input type="submit" value="Create Story" />
+    </form>
 
-<label for="state">State:</label>
-<select name="state" id="state">
-  <option value="CA">CA</option>
-  <option value="OR">OR</option>
-  <option value="NY">NY</option>
-</select>
+    <!-- Where your madlib story will appear -->
+    <div id="madlibStory">
 
-    <input type="submit" />
-</form>
+    </div>
 
+    <script src="/static/jquery-1.11.3.js"></script>
+    <script src="/static/script.js"></script>
 </body>
 </html>
 
