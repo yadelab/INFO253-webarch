@@ -6,7 +6,7 @@ import shelve
 
 # Creating a database for our server. This way even if our server shuts down 
 # we dcan save information
-demo_db = shelve.open("demo_db.db")
+demo_db = shelve.open("demo_db")
 
 # Demo in class: POST
 @app.route('/demo/wiki', methods=["POST", "PUT"])
@@ -30,7 +30,11 @@ def load_demo_get():
 # HW 5 content
 
 # Creating database to store redirect
-redirect_db = shelve.open("redirect.db")
+redirect_db = shelve.open("redirect")
+
+# Initializing redirect db with initial location of url
+if "location" not in redirect_db:
+	redirect_db["location"] = "http://ischool.berkeley.edu"
 
 # When you type http://127.0.0.1:5000/home in your browser, this
 # piece of code is run
@@ -42,8 +46,7 @@ def load_home():
 # When you type http://127.0.0.1:5000/school in your browser, this
 # piece of code is run
 @app.route('/redirect', methods=["GET", "POST", "PUT"])
-def load_redirect():
-	global redirect_path
+def load_redirect():		
 
 	if request.method == "GET":
 		return redirect(redirect_db["location"], code=302)
