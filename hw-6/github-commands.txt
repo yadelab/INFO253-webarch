@@ -1,1 +1,28 @@
+Yadel Abraham
+==================================================================================================================================
+
 # Please enter answers for hw-6 here
+
+1.Link: curl https://api.github.com/users/kayashaolu
+
+Kay has 2 public_repos.
+
+
+
+2.Link: curl https://api.github.com/users/kayashaolu/repos
+
+Is owner of:
+	kayashaolu/datadiscovery and kayashaolu/spoon-knife
+
+
+
+3. Link: curl https://api.github.com/repos/davelester/Drone-Lab-Scripts/contributors
+
+qqz, kayashaolu, nonmetalhail, davelester 
+
+
+
+4.Link: curl https://api.github.com/repos/davelester/Drone-Lab-Scripts/commits
+
+Adding customReplCommands.js\n\nAllows you to add new functions when you run repl so you can test\nseveral
+ different pieces of code in one run by calling them using the\nrepl interface
