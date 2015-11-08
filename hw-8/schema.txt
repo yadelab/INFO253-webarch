@@ -1,6 +1,6 @@
 
 CREATE TABLE Players
-    (`Team` varchar(16), `Player` varchar(20), `Salary` int, `Position` varchar(14))
+    (`Team` varchar(100), `Player` varchar(100), `Salary` int, `Position` varchar(100))
 ;
     
 INSERT INTO Players
