@@ -1,0 +1,17 @@
+Name: Yadel Abraham
+
+1. 23 make over 4,000,000
+
+2. 11 Pitchers
+
+3
+INSERT INTO Players
+   (`Team`, `Player`, `Salary`, `Position`)
+VALUES 
+  ('San Francisco Giants', 'Abraham Yadel',1000000,'Pitcher');
+
+4.No they cannot, this is related to the concept of Isolation.
+
+5. UPDATE Players 
+	SET Salary=2000000
+	WHERE Player="Abrhaham Yadel"
